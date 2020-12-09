@@ -1,0 +1,234 @@
+body{
+    background-color: whitesmoke;
+}
+.container{
+    min-width: 840px;
+    max-width: 1080px;
+    border: 1px solid rgba(99, 93, 93, 0.404);
+    margin: auto;
+    height:700px;
+    background-color: white;
+}
+.sidebar{
+    width:280px;
+    float: right;
+    height: 700px;
+    border-left: 2px solid  #62B6CB;
+}
+.main{
+    width:800px
+}
+.row-align{
+    display: flex;
+    margin-left:10px;
+    margin-bottom: -12px;
+}
+
+h1{
+    font-size: 20px;
+}
+.pointer{
+    font-size: 40px;
+    margin-top: -11px;
+}
+.color-pointer{
+    color: #5FA8D3
+}
+.color-title{
+    color: #2F6690;
+}
+.time-button{
+    width: 138px;
+    text-align: center;
+    color: white;
+    background-color: #2F6690;
+    opacity: 100%;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.header-align{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: #2F6690;
+    height: 65px;
+    margin-left:-11px
+    
+}
+.body{
+    height:473px;
+}
+.header{
+height:143px;
+}
+.select-section{
+    margin-top: 0px;
+    width: 135px;
+    height: 30px;
+    border-left: 2px solid #2F6690;
+    border-top: 2px solid #2F6690;
+    border-bottom: 2px solid #2F6690;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding-left: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+.select-sectionafter{
+    margin-top: 0px;
+    width: 135px;
+    height: 30px;
+    border-left: 2px solid #2F6690;
+    border-top: 2px solid #2F6690;
+    border-bottom: 2px solid #2F6690;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    color:#ffffff;
+    background-color: #2F6690;
+    padding-left: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+.select-section:hover{
+    margin-top: 0px;
+    width: 135px;
+    height: 30px;
+    background-color: #62B6CB;
+    border-left: 2px solid #2F6690;
+    border-top: 2px solid #2F6690;
+    border-bottom: 2px solid #2F6690;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.select-section-margin-left{
+margin-left: -20px;
+}
+.select-section-last-border-right{
+    border-right: 2px solid #2F6690;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.q-number{
+    font-size: 20px;
+    text-decoration: underline;
+    color: #2F6690;
+    opacity: 1;
+    margin-left: 10px;
+}
+
+.q-text{
+    height: 133px;
+    /* background-color: aquamarine; */
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+}
+
+.button1{
+    color:#5FA8D3;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.button2{
+    background-color:#5FA8D3;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right:10px;
+    cursor: pointer;
+}
+
+.button-align{
+    display: flex;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #62B6CB;
+    border-radius: 5px;
+}
+
+.sidebar-header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.sidebar-text{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.sidebar-info{
+    width: 235px;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+}
+
+.sidebar-number{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    color:#ffffff
+}
+
+.sidebar-header2{
+    display: flex;
+    justify-content: left;
+}
+
+.section-name{
+    font-size: 16px;
+    text-align: center;
+    background-color: #62B6CB;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.q-icon{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left:10px;
+    cursor: pointer;
+}
+.options{
+    border: 1px solid #62B6CB;
+    min-width: 400px;
+    padding: 10px 5px 10px 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.options2{
+    border: 1px solid #62B6CB;
+    min-width: 400px;
+    background-color: #CAE9FFE6;
+    padding: 10px 5px 10px 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
