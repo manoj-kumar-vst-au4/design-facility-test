@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import TestTimer from './Timer';
 export default function Header(props) {
 
     return (
         <div className="header">
+            
             <div className="header-align">
                 <div className="row-align">
                     <h1>Design Facility</h1>
@@ -10,7 +12,7 @@ export default function Header(props) {
                     <h1 className="color-title">{props.data.examTitle}</h1>
                 </div>
                 <div>
-                    <p className="time-button">Time Left</p>
+                    <p className="time-button"><TestTimer timer={props.timer}/></p>
                 </div>
             </div>
             <div className="row-align">

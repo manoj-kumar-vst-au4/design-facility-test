@@ -7,7 +7,7 @@ import Axios from 'axios';
 export default function Container() {
     const [data, setData] = React.useState([]);
     const sections = data.sections;
-
+    const [timer, setTimer] = React.useState(10);
     const [selectSection, setSelectSection] = React.useState('Section1');
     const [SelectedData, setSelectedData] = React.useState([]);
     const [selectedOption, setSelectedOPtion] = React.useState('');
@@ -38,6 +38,7 @@ export default function Container() {
         )
     }
     const changeQ = (index) => {
+        setQIndex(index);
         setQText(SelectedData[index].quesText)
         setop1(SelectedData[index].option1)
         setop2(SelectedData[index].option2)
@@ -91,7 +92,7 @@ export default function Container() {
     return (
         <div className="row-align">
             <div className="main">
-                <Header data={data} sections={sections} selectSection={selectSection} onClickSection={onClickSection} qIndex={qIndex} />
+                <Header data={data} timer={timer}sections={sections} selectSection={selectSection} onClickSection={onClickSection} qIndex={qIndex} />
                 <Body data={data} qText={qText} op1={op1} op2={op2} op3={op3} op4={op4} onHandleOption={onHandleOption} selectedOption={selectedOption} />
                 <Footer onSave={onSave} clearResponse={clearResponse} />
             </div>
